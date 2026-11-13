@@ -1,0 +1,48 @@
+From support@example.com Fri Mar 13 10:00:00 2026
+Content-Type: multipart/mixed; boundary="===============5259755829869256057=="
+MIME-Version: 1.0
+From: alice@example.com
+To: support@example.com
+Subject: Invoice INV-1044
+Message-ID: <inv1044@example.com>
+Date: Fri, 13 Mar 2026 10:00:00 +0000
+
+--===============5259755829869256057==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+UGxlYXNlIGZpbmQgdGhlIGludm9pY2UgYXR0YWNoZWQuCg==
+
+--===============5259755829869256057==
+Content-Type: application/octet-stream; Name="INV-1044.csv"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-1044.csv"
+
+aW52b2ljZV9ubyxJTlYtMTA0NApDdXN0b21lcixBY21lCkFtb3VudCwxODguMDAK
+
+--===============5259755829869256057==--
+
+From support@example.com Fri Mar 13 10:00:00 2026
+From: bob@example.com
+To: support@example.com
+Subject: =?gb2312?B?tN+1pQ==?=
+Message-ID: <chui@example.com>
+Date: Fri, 13 Mar 2026 11:00:00 +0000
+Content-Type: text/plain; charset=gb2312
+Content-Transfer-Encoding: 8bit
+
+这是一封只用正文的催单信，没有发票附件。
+
+From support@example.com Fri Mar 13 10:00:00 2026
+From: cara@example.com
+To: support@example.com
+Subject: reservation
+Message-ID: <qp@example.com>
+Date: Fri, 13 Mar 2026 12:00:00 +0000
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Cafe reservation =C3=A9 confirmed, no invoice.
+

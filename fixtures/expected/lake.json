@@ -1,0 +1,20 @@
+{
+  "required_record_ids": [
+    "INV-1044"
+  ],
+  "lake_min": 6,
+  "invoices": [
+    {
+      "invoice_no": "INV-1044",
+      "sources": [
+        "mbox:<inv1044@example.com>:INV-1044.csv",
+        "zip:bundle.zip:nested/inner.zip/invoices/INV-1044.csv"
+      ]
+    }
+  ],
+  "quarantine_reasons": [
+    "corrupt",
+    "zip_slip"
+  ],
+  "quarantine_min": 2
+}
